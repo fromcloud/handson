@@ -8,7 +8,6 @@ cd /home/ec2-user
 wget https://aws-codedeploy-ap-northeast-2.s3.amazonaws.com/latest/install
 chmod +x ./install
 ./install auto
-yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
 service codedeploy-agent status
 service httpd start
 chkconfig httpd on

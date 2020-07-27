@@ -7,7 +7,7 @@ yum install wget -y
 cd /home/ec2-user
 wget https://aws-codedeploy-ap-northeast-2.s3.amazonaws.com/latest/install
 chmod +x ./install
-sudo ./install auto
-sudo service codedeploy-agent status
+./install auto
+service codedeploy-agent status
 service httpd start
 chkconfig httpd on

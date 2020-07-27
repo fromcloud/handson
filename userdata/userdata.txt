@@ -1,7 +1,7 @@
 #!/bin/bash
 yum update -y
 yum install httpd -y
-yum install php72 php72-mysqlnd php72-imap php72-pecl-memcache php72-pecl-apcu php72-gd php72-mbstring -y
+yum install php php-mysqlnd php-imap php-pecl-memcache php-pecl-apcu php-gd php-mbstring -y
 yum install ruby -y
 yum install wget -y
 cd /home/ec2-user

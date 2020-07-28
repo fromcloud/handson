@@ -1,6 +1,6 @@
 <?php
 
-echo "v1.0";
+echo "v2.0";
 phpinfo();
 
 ?>

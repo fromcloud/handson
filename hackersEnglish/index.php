@@ -1,11 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
-
-use Carbon\Carbon;
- 
-$date = Carbon::now();
-
-echo $date->toDayDateTimeString();
+echo "v1.0";
+phpinfo();
 
 ?>
